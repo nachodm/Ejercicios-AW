@@ -1,0 +1,90 @@
+/* Introduce aquí las reglas de estilo */
+
+head {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 45px;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 45px;
+}
+
+p {
+	text-align:centre;
+}
+
+td {
+    padding: 5px;
+}
+
+h2 {
+	color:blue;
+}
+
+.bluebackgroundtitle {
+    border-radius: 10px;
+	text-align: center;
+	background-color:#33ccff;
+	color: rgba(6, 6, 143, 0.9);
+}
+
+.purplehighlight {
+	color:purple;
+    text-align: right;
+}
+
+.bluehighlight {
+    color:deepskyblue;
+}
+.dates {
+    text-align: right;
+}
+
+.time_period {
+	border: 1px solid black;
+	text-align: center;
+	background-color: #f7dc6f
+}
+
+.withborder {
+	margin: 50px;
+	border-collapse: collapse;
+}
+
+.dayoftheweek {
+	border: 1px solid black;
+	text-align: center;
+	background-color: #61210B;
+	color:white;
+}
+
+.sessions {
+	border: 1px solid black;
+	text-align: center;
+	background-color: #5ED7FF;
+}
+
+.sistedes {
+	border: 1px solid black;
+	text-align: center;
+	background-color: rgba(255, 80, 255, 0.9);
+}
+
+.others {
+	border: 1px solid black;
+	text-align: center;
+	background-color: rgb(248, 154, 53);
+}
+
+.foodbreaks {
+	font-weight: bold;
+	border: 1px solid black;
+	text-align: center;
+	color:white;
+	background-color: #660000
+}
+
+.italics {
+    font-style: italic;
+}
