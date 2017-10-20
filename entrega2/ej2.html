@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <meta charset="utf-8">
         <title>Gestor de tareas</title>
         <meta name="description" content="Gestor de tareas ejercicio 2 AW">
         <link rel="stylesheet" href="ejer2.css" media="screen">
         <link rel="stylesheet" href="ejer2print.css" media="print">
-        
     </head>
     <body>
         <div class="header">
-            <div><img src="Logo.png" alt="logo" ></div>
+            <div>
+                <img src="Logo.png" alt="logo">
+            </div>
             <div class="flexend">
-                <div><img height="74px" src="NoPerfil.png" alt="profile picture"></div>
-            
+                <div>
+                    <img src="NoPerfil.png" alt="profile picture" id="profilepic">
+                </div>
                 <div class="lastitem">
-                    <div class="whitefonts">user@mail.com</div>
-                    <div><input type="button" class="yellowbutton" value="Desconectar" style="margin-top: 7px;"></div>
+                    <div id="whitefonts">user@mail.com</div>
+                    <div> 
+                        <a class="yellowbutton" href="#">Desconectar</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -25,29 +28,46 @@
             <div>
                 <ul>
                     <li>
-                        <div><strong>Preparar practica PDAP</strong> <input type="button" class="yellowbutton" value="pdap"><input type="button" class="yellowbutton" value="practica"></div>
-                        <div><button type="button" class="brownbutton"><img src="tick.gif" alt="x" /> Marcar finalizada</button></div>
-                    </li>
-                    <li>
-                        <div style="color: grey;"><strike>Mirar fechas congreso</strike></div>
-                    </li>
-                    <li>
-                        <div><strong>Ir al supermercado</strong> <input type="button" class="yellowbutton" value="personal"></div>
-                        <div><button type="button" class="brownbutton"><img src="tick.gif" alt="x" /> Marcar finalizada</button></div>
-                    </li>
-                    <li>
-                        <div><strong>Mudanza</strong><input type="button" class="yellowbutton" value="personal">
+                        <div>
+                            <strong>Preparar practica PDAP</strong> 
+                            <span class="yellowtags">pdap</span>
+                            <span class="yellowtags">practica</span></div>
+                        <div>
+                            <a class="brownbutton" href="#">
+                            <span> Marcar finalizada</span></a>
                         </div>
-                        <div><button type="button" class="brownbutton"><img src="tick.gif" alt="x" /> Marcar finalizada</button></div>
+                    </li>
+                    <li>
+                        <div id="greyfonts"><strike>Mirar fechas congreso</strike></div>
+                    </li>
+                    <li>
+                        <div>
+                            <strong>Ir al supermercado</strong>
+                            <span class="yellowtags">personal</span>
+                        </div>
+                        <div>
+                            <a class="brownbutton" href="#">
+                            <span> Marcar finalizada</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <strong>Mudanza</strong>
+                            <span class="yellowtags">personal</span>
+                        </div>
+                        <div>
+                            <a class="brownbutton" href="#">
+                            <span> Marcar finalizada</span></a>
+                        </div>
                     </li>
                 </ul>
             </div>
             
-             <div class="add_field">
-                 <input type="text" name="add_item" size="56" style="margin-right: 3px;"><input type="button" class="greenbutton" value="Añadir">
+             <div id="addItem">
+                 <input type="text" name="add_item" id="inputBar"><a class="greenbutton" href="#">Añadir</a>
             </div>
-            <div class="features">
-                <input type="button" class="yellowbutton" value="Eliminar tareas completadas">
+            <div id="deleteItems">
+                <a class="yellowbutton" href="#">Eliminar tareas completadas</a>
             </div>
         </div>
     </body>

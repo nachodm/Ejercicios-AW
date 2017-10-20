@@ -6,10 +6,26 @@
     display: none;
 }
 
+.yellowtags {
+    color: grey;
+}
+
+#greyfonts {
+    color: grey;
+}
+
 .features {
     display:none;
 }
 
 .brownbutton {
+    display: none;
+}
+
+#addItem {
+    display: none;
+}
+
+#deleteItems {
     display: none;
 }
