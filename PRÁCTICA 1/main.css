@@ -1,0 +1,91 @@
+body {
+    background-image: url('img/Fondo.jpg');
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+}
+#logo {
+    height: 100px; 
+}
+
+#optionsmenu{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px;
+}
+
+@font-face {
+    font-family: GloriaHallelujah;
+    src: url(fonts/GloriaHallelujah.ttf);
+}
+
+.options {
+    color: white;
+    font-family: "GloriaHallelujah";
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+.options:hover {
+    transition-duration: 0.4s;
+    color: black;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mytext {
+    color: black;
+    font-family: "GloriaHallelujah";
+    font-size: 25px;
+}
+
+#login {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: #9d00b0;
+    border-radius: 15px;
+    width: 500px;
+    padding: 10px;
+}
+
+.formelement {
+    display: flex;
+    justify-content:space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 3px;
+}
+
+.whitetext {
+    font-family: sans-serif;
+    color: white;
+}
+
+#connectbutton {
+    color: white;
+    font-family: "GloriaHallelujah";
+    text-decoration: none;
+    background-color:#c850e0;
+    margin-top: 10px;
+    border-radius: 6px;
+    padding: 2px;
+    font-size: 20px;
+    width: 35%;
+    align-self: center;
+}
+
+#connectbutton:hover {
+    transition-duration: 0.4s;
+    background-color: white;
+    color: #c850e0;
+}
